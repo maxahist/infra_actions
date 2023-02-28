@@ -62,4 +62,4 @@ jobs:
           scripts: |
             sudo docker pull maxahist/actions
             sudo docker stop $(sudo docker ps -a -q)
-            sudo docker run --rm -d -p 5000:5000 maxahist/actions
+            sudo docker run --rm -d -p 8000:8000 maxahist/actions
