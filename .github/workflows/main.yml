@@ -58,7 +58,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
-          key: ${{ secrets.SSH_KEY }}
+          key: ${{ secrets.SSH_HEY }}
           scripts: |
             sudo docker pull maxahist/actions
             sudo docker stop $(sudo docker ps -a -q)
